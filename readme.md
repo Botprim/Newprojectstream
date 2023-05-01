@@ -21,9 +21,8 @@
 
 <hr>
 
-## Please Follow me so you know whenever I release a new Project!❤️‍🔥
-### Incase you are having trouble deploying bot you may hire developer we have reasonable rates [click here](https://t.me/+KvjFjOWicuZmOTQx)
-
+### Please star this repository to appreciate my efforts and follow me so you that you get to know whenever I release a new Project!
+<hr>
 ## 🍁 About This Bot :
 
 ![streamingfilestreambot-professional-live_1](https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png)
@@ -34,10 +33,11 @@
 </p>
 
 
-## ♢ How to make your own :
+## ♢ How to make your own:
+##### Incase you are having trouble deploying bot you may hire us we to get the work done at reasonable price.[click here](https://t.me/+KvjFjOWicuZmOTQx)
 
 
-#### ♢ Click on This Drop-down and get more details
+#### ♢ Click on This drop down menu to get more details
 <br>
 <details>
   <summary><b>Deploy on Heroku:</b></summary>
