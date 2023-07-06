@@ -82,7 +82,23 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 </details>
 <details>
   <summary><b>Host it on VPS Locally :</b></summary>
+  <details>
+  <summary><b>Deploy on Ubuntu<b></summary>
+  If you are on Ubuntu, there's a 10 times easier way to deploy this bot. Just copy the command below and you're good to go.
+  
+  ```sh
+  apt-get update -y && apt-get upgrade -y && apt-get install curl -y && curl https://raw.githubusercontent.com/adarsh-goel/FileStreamBot-pro/main/script.sh -o script.sh && bash script.sh
+  ```
 
+  and to stop the whole bot,
+ do <kbd>CTRL</kbd>+<kbd>C</kbd>
+
+  </details>
+
+  <details>
+  <summary><b>Deploy on Windows or other plataform<b></summary>
+  
+  You should make sure you have Python 3.6+ installed on your PC, then clone this repo and run the following commands in a terminal:
 
 ```py
 git clone https://github.com/adarsh-goel/filestreambot-pro
@@ -93,8 +109,12 @@ pip install -r requirements.txt
 python3 -m Adarsh
 ```
 
+
+
 and to stop the whole bot,
  do <kbd>CTRL</kbd>+<kbd>C</kbd>
+
+ </details>
 
 Setting up things
 
