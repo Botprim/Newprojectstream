@@ -11,7 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '23269695'))
     API_HASH = str(getenv('API_HASH', 'fe87e7bd7f183c6a9647d0707954b925'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6572801733:AAGXMZn0a-E593CgjGa6YWlJyeU_kP7kx2M'))
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
