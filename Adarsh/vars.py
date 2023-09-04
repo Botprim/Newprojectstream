@@ -9,9 +9,9 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '23269695'))
-    API_HASH = str(getenv('API_HASH', 'fe87e7bd7f183c6a9647d0707954b925'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '6572801733:AAGXMZn0a-E593CgjGa6YWlJyeU_kP7kx2M'))
+    API_ID = int(getenv('API_ID', '27116256'))
+    API_HASH = str(getenv('API_HASH', '89669f3ecf7d5257926a50701371100b'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6620784685:AAE0PusNT0u9GSv_rtWQxUtaE2TI4NfCNb0'))
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -35,6 +35,6 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://Anshu01:Anshu01@cluster0.vhtlpsp.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'newmoveisp'))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://Marvelbotz:Marvelbotz@cluster0.oyxdumi.mongodb.net/?retryWrites=true&w=majority'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', ''))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
